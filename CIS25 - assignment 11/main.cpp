@@ -14,14 +14,9 @@ int main()
     cin >> value1;
     cout << "enter the second value: " << endl;
     cin >> value2;
-    if(value1>value2)
-    {
-        largeValue=value1;
-    }
-    else
-    {
-        largeValue=value2;
-    }
+    
+    // using conditional operator to test and compare
+    largeValue = (value1 > value2)? value1 : value2;
     cout << "The larger value is: "<< largeValue << endl;
     return 0;
 }
