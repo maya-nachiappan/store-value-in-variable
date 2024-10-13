@@ -1,0 +1,1 @@
+This is a program that asks the user to enter two values, stores the larger value in a separate variable, and then prints the larger value on the terminal. The program uses an if loop first and then conditional operators to find the larger value of the two.
