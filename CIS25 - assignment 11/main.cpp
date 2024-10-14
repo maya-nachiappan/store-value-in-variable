@@ -16,7 +16,7 @@ int main()
     cin >> value2;
     
     // using conditional operator to test and compare
-    largeValue = (value1 > value2)? value1 : value2;
+    largeValue = (value1 > value2)? value1 : value2; // the value stored in largeValue depends on which value is larger
     cout << "The larger value is: "<< largeValue << endl;
     return 0;
 }
